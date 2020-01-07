@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="catalogue">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="produit" type="typeProduit" minOccurs="1" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:complexType name="typeProduit">
+        <xsd:attribute name="code" type="xsd:ID" use="required" />
+        <xsd:attribute name="designation" type="xsd:string" use="required" />
+    </xsd:complexType>
+</xsd:schema>

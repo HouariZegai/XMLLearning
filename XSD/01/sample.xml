@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="sample.xsd">
+    <produit code="ID000" designation="motherboard"/>
+    <produit code="ID001" designation="mouse"/>
+</catalogue>
