@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="file:/C:/Users/Houari/Documents/Learn/Projects/XML/XMLLearning/XSD/05/sample.xsd">
+    <name>Houari</name>
+    <age>64</age>
+    <email>admin@houari.net</email>
+</person>
