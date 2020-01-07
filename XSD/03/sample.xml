@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="file:/C:/Users/Houari/Documents/Learn/Projects/XML/XMLLearning/XSD/03/sample.xsd">
+    <author>Mohamed</author>
+    <pages>128</pages>
+</book>
