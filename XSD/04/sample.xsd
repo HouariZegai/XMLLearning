@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="contact">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="numeroTelephone">
+                    <xsd:simpleType>
+                        <xsd:list itemType="xsd:unsignedByte" />
+                    </xsd:simpleType>
+                </xsd:element>
+                
+                <xsd:element name="numeroTel">
+                    <xsd:simpleType>
+                        <xsd:union memberTypes="xsd:string xsd:int" />
+                    </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

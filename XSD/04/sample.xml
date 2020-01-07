@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="file:/C:/Users/Houari/Documents/Learn/Projects/XML/XMLLearning/XSD/04/sample.xsd">
+    <numeroTelephone>128 128 252</numeroTelephone>
+    <numeroTel>+a213 0999bd 9999</numeroTel>
+</contact>
