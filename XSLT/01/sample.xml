@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sample.xsl" ?>
+<biblio>
+    <etudiant code="E1" nom="A" prenom="PA">
+        <livre id="L1" dateEmrunt="2020-01-22" titre="XML" rendu="OUI" />
+        <livre id="L2" dateEmrunt="2020-01-15" titre="Oracle" />
+    </etudiant>
+    <etudiant code="E2" nom="B" prenom="PB">
+        <livre id="L1" dateEmrunt="2019-10-22" titre="XML" rendu="OUI" />
+        <livre id="L3" dateEmrunt="2020-01-13" titre="Oracle" rendu="NON" />
+    </etudiant>
+</biblio>
